@@ -6,8 +6,8 @@
     orbitRadius: 3,
     hasAtmosphere: true,
     updateLighting: false,
-    atmosphereRadIn: 0.1,
-    atmosphereRadOut: 0.3,
+    atmosphereRadIn: -0.05,
+    atmosphereRadOut: 0.2,
     atmosphereColor: 21c7eb,
     landCloudColor: d5e3eb
     drawOrbit: true,
@@ -49,13 +49,13 @@
         type: HexSkyMesh
         planet: anklivo
         seed: 5
-        speed: 2
+        speed: 0.67
         radius: 0.05
         divisions: 5
         color: 8f6227
         octaves: 1.5
         persistence: 2
-        scl: 1
+        scl: 0.8
         thresh: 0.45
         }
     mesh: {
